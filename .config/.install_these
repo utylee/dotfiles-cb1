@@ -1,6 +1,13 @@
 * install fish-shell
 git clone https://github.com/fish-shell/fish-shell.git
 cd fish-shell; mkdir build ; cd build ; cmake ..; make; sudo make install 
+
+* 새방법
+mkdir build; cd build
+cmake ..
+cmake --build .
+sudo cmake --install .
+
 	*if MACOS
 		mkdir build; cd build
 		cmake .. -G Xcode -DBUILD_DOCS=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo
@@ -13,6 +20,10 @@ chsh -s /usr/local/bin/fish
 
 * install fisher
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+
+* 새방법
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish \
+  -o ~/.config/fish/functions/fisher.fish
 
 * install fisher pyenv plugin
 fisher install utylee/pyenv 
