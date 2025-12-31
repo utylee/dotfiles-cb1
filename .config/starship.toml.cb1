@@ -28,7 +28,7 @@ success_symbol = "[❯](bold #a14a43)"
 #success_symbol = "[❯](bold 61)"
 #error_symbol = "[✗](fg:1)"
 #error_symbol = "[❯](fg:1)"
-error_symbol = "[❯](fg:12)"
+error_symbol = "[❯](fg:#99208b)"
 #vicmd_symbol = "[N](fg:15 bold)"
 #vicmd_symbol = "[⚡](fg:15 bold)"
 #vicmd_symbol = "[\uE0D2](fg:5)"
@@ -128,3 +128,5 @@ show_always = true
 disabled = true
 #format = '[🕙$time](#555555) '
 format = '[$time](#555555) '
+
+scan_timeout = 500
