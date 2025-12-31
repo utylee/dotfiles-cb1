@@ -1,0 +1,6 @@
+UUID=4a110fbf-cbb4-411f-98a6-77514a52001d / ext4 defaults,noatime,commit=120,errors=remount-ro 0 1
+UUID=F6D4-20AC /boot vfat defaults 0 2
+//192.168.1.202/8001 /home/biqu/media/8001 cifs username=utylee,password=sksmsqnwk11,x-systemd.device-timeout=18  0 0
+//192.168.1.204/5003 /home/biqu/media/5003 cifs username=utylee,password=sksmsqnwk11,x-systemd.device-timeout=18,file_mode=0777,dir_mode=0777  0 0
+tmpfs /tmp tmpfs defaults,nosuid 0 0
+/swapfile none swap sw 0 0
