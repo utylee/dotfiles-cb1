@@ -52,7 +52,7 @@ set -l NODEHOME /usr/local/node-v24.12.0-linux-arm64
 ## set -x PATH $ESPHOME/bin $PATH
 #set -Ua fish_user_paths $ESPHOME/bin
 # set -x PATH $HOME/.go/bin $GOHOME/bin $NODEHOME/bin $PATH
-set -Ua fish_user_paths $HOME/.go/bin $GOHOME/bin $NODEHOME/bin 
+set -Ua fish_user_paths $HOME/.go/bin $GOHOME/bin $NODEHOME/bin /usr/sbin /sbin
 
 
 # FZF
