@@ -74,7 +74,7 @@ disabled = true
 #format = "[${symbol}${version}\\($virtualenv\\)]($style) "
 #format = "[\\($virtualenv\\)](bold #a87932) "
 # format = "[\\($virtualenv\\)](fg:3 bg:8) "
-format = "[\\($virtualenv\\)](fg:0 bg:8) "
+format = "[\\($virtualenv\\)](fg:15 bg:8) "
 # 아래 파일로 버전표시를 하는 것 같은데 env 용으로만 사용키 위해 아래를 다 비웠습니다
 detect_files = []
 detect_folders = []
